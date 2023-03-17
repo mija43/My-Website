@@ -1,0 +1,98 @@
+/**HEADER**/
+
+header a{
+  color:gray;
+padding: 10px;}
+
+a:hover{
+color: black;}
+/**HERO SECTION**/
+.navi{
+  text-align: right;
+  margin: 10px auto;
+  padding: 25px;
+}
+
+/***ICON***/
+
+.container {
+margin: 0 auto;
+padding: 30px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;}
+
+/***RECENT WORK***/
+.container-menu {
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 40px;}
+
+
+/***BLOG WORK***/
+.container-blog {
+margin: 110 auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 0px;}
+
+.line{
+border-bottom:1px #a3a0a0 solid;}
+
+/***INFO***/
+#contacts-info{
+  background: #332c2b;
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px;}
+
+.gray{
+  color: gray;}
+
+.col-md-3 p,h4{
+  border-bottom:1px #a3a0a0 solid;}
+
+
+
+/***FOOTER***/
+footer{
+  background: #1f1a19;}
+
+
+/***Media***/
+
+ @media screen and (max-width: 1024px) {
+.container {
+grid-template-columns: repeat(1, 1fr);
+}
+.container-menu{
+grid-template-columns: repeat(2, 1fr);
+}
+.container-blog{
+grid-template-columns: repeat(1, 1fr);
+}
+
+
+@media screen and (max-width: 768px) {
+
+.container {
+grid-template-columns: repeat(1, 1fr);
+}
+.container-menu{
+grid-template-columns: repeat(1, 1fr);
+}
+.container-blog{
+grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (max-width: 414px) {
+.container {
+grid-template-columns: repeat(1, 1fr);
+}
+.container-menu{
+grid-template-columns: repeat(1, 1fr);
+}
+.container-blog{
+grid-template-columns: repeat(1, 1fr);
+}}
